@@ -1,0 +1,65 @@
+/* App.css */
+
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 0 0;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1rem;
+  color: rgb(89, 158, 89);
+  margin: 10px 0 10px 0;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin: 0 0 0 0;
+  color: rgb(52, 119, 163);
+  font-weight: 600;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.linea-horizontal {
+  border: none;
+  height: 3px;
+  width: 85%;
+  background-color: black;
+
+  margin: 0;
+}
+
+
+.hoja {
+  border: 3px solid #1a1a1a;
+  display: flex;
+  flex-direction: column;
+
+  width: 600px;
+  height: 100%;
+
+  padding: 80px;
+}
+
+.hoja__section {
+  margin: 20px 0 0 0;
+  padding: 0;
+}
+
+.text {
+  font-size: 1rem;
+  font-weight: 600;
+
+  ul{
+    margin: 5px 0 5px 20px;
+    padding: 0;
+
+  }
+}
